@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/icon.png" type="image/x-icon">      
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>רישום תשפ"א</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img id="logo" src="./assets/img/icon.png" ></a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link">צפיה במכתב פתיחת שנה"ל תשפ"א</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"> הרשמה לצהרון</a></li>
+                        <li class="nav__item"><a href="#contact2" class="nav__link active">ביטול הרשמה לצהרון </a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">,הורים יקרים<br>ההרשמה<span class="home__title-color"> בעיצומה</span><br> גני הילדים של המעיין</h1>
+
+                    <a href="#contact" class="button">הרשמה</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://he-il.facebook.com/ganeymaayan/" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/airplane.png" alt="">
+                </div>
+            </section>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">צפיה במכתב פתיחת שנה"ל תשפ"א</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/send.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">:האנא הקישו את ת.ז. של התלמיד/ה</h2>
+                        <p class="about__text">ע"מ לצפות במכתב התקף לילדכם אנא הקישו ת.ז.- כולל ספרת ביקורת<br><br></p>           
+                            <input type="text" placeholder="מס' תעודת זהות" class="contact__input id">
+                            <a href="#" class="button"  onclick="window.location.href='https:\/\/drive.google.com/file/d/1BUS10W0mZHEfi54DGPGaBPLOaZiyXNy6/view?usp=sharing';">צפיה במכתב</a>
+                        </div>                               
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">הרשמה לצהרון</h2>
+                <div class="contact__container bd-grid">
+                    <p class="about__text">.בקשת רישום לצהרון לאחר 20/08/2020 הנה על בסיס מקום פנוי. אין התחייבות להנהלה<br><br></p>           
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="ת.ז. תלמיד/ה" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="שליחה" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+            <section class="contact section" id="contact2">
+                <h2 class="section-title">ביטול הרשמה לצהרון</h2>
+                <div class="contact__container bd-grid">
+                    <p class="about__text">.ביטול רישום לצהרון יש לבצע עד 20/08/2020. לאחר מכן יגבה חצי מהתשלום החודשי לצהרון<br><br></p>           
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="ת.ז. תלמיד/ה" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="שליחה" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">מעיין החינוך התורני פתח תקווה</p>
+            <div class="footer__social">
+                <a href="https://he-il.facebook.com/ganeymaayan" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
